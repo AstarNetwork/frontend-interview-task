@@ -1,0 +1,29 @@
+{
+  "platform": "darwin",
+  "project_name": "frontend-task",
+  "language": "ink",
+  "contractTemplate": "psp22",
+  "node": {
+    "type": "swanky",
+    "url": "https://github.com/AstarNetwork/swanky-node/releases/download/v0.10.0/swanky-node-v0.10.0-macOS-x86_64.tar.gz",
+    "supportedInk": "v3.3.1",
+    "localPath": "/Users/sasapul/Work/astar/frontend-task/bin/swanky-node",
+    "nodeAddress": "ws://127.0.0.1:9944"
+  },
+  "accounts": [
+    {
+      "alias": "alice",
+      "mnemonic": "//Alice"
+    },
+    {
+      "alias": "bob",
+      "mnemonic": "//Bob"
+    }
+  ],
+  "author": {
+    "name": "astar",
+    "email": ""
+  },
+  "contractName": "psp22",
+  "contracts": []
+}

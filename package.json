@@ -1,0 +1,15 @@
+{
+  "name": "frontend-task",
+  "version": "1.0.0",
+  "author": "astar",
+  "license": "MIT",
+  "scripts": {
+    "run-node": "swanky node start",
+    "compile": "swanky compile",
+    "deploy": "swanky deploy -c psp22 -g 10000000000 -a 100000",
+    "account:generate": "swanky account create -g"
+  },
+  "dependencies": {
+    "@astar-network/swanky-cli": "0.1.6"
+  }
+}
